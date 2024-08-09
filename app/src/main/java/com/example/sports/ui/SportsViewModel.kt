@@ -50,7 +50,6 @@ class SportsViewModel : ViewModel() {
         }
     }
 
-
     fun navigateToDetailPage() {
         _uiState.update {
             it.copy(isShowingListPage = false)
